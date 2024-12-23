@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanical and Industrial Engineering Consulting PLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #00509e;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section h2 {
+            color: #003366;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .service {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 1rem;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .service h3 {
+            color: #00509e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mechanical and Industrial Engineering Consulting PLC</h1>
+        <p>Innovative Solutions for Engineering Challenges</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Mechanical and Industrial Engineering Consulting PLC! We specialize in providing top-notch consulting services in mechanical and industrial engineering. Our team of experts is dedicated to delivering innovative solutions to meet the needs of various industries, ensuring efficiency, quality, and sustainability in every project we undertake.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design and Analysis</h3>
+                <p>Comprehensive design and analysis services for mechanical systems and components.</p>
+            </div>
+            <div class="service">
+                <h3>Process Optimization</h3>
+                <p>Streamlining industrial processes to enhance productivity and reduce costs.</p>
+            </div>
+            <div class="service">
+                <h3>Project Management</h3>
+                <p>Expert management of engineering projects from concept to completion.</p>
+            </div>
+            <div class="service">
+                <h3>Maintenance Strategies</h3>
+                <p>Development of efficient maintenance plans to extend equipment lifespan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to discuss your project, feel free to reach out to us!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mechanical and Industrial Engineering Consulting PLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
